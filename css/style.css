@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+
+body {
+  font-family: 'Roboto', sans-serif; 
+  background-color:azure; 
+  margin: 0;
+  padding: 0;
+  color: #333; 
+}
+
+.nav_bar {
+  background-color:#ccc; 
+  color: #fff; 
+  padding: 10px 0;
+}
+
+.nav_logo {
+  width: 100%;
+  height: 50px; 
+  background-image: url('../image/logo.png');
+  background-size: contain;
+  background-position:center; 
+  background-repeat: no-repeat; 
+}
+
+.nav_text {
+  font-size: 1.5rem;
+  font-weight: bold;
+  display: flex;
+  align-items: center; 
+  justify-content: center; 
+  color: blue;
+  height: 100%;
+  text-align: center;
+}
+
+.container {
+  margin-top: 20px;
+}
+
+h1 {
+  font-size: 22px;
+  color: #0056b3;
+  margin-bottom: 20px;
+}
+
+p {
+  line-height: 1.6;
+  font-size: 1rem;
+}
+
+b {
+  font-weight: bold;
+  color: #444;
+}
+
+.img_size {
+  float: right; 
+  margin: 20px;
+  border: 5px solid #ccc; 
+  border-radius: 10px; 
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+}
+
+.col-4 p {
+  text-align: center;
+  margin-top: 10px;
+  font-style: italic;
+}
+
+.col-4 {
+    position: relative;
+    min-height: 550px; 
+    background-image: url('../image/myphoto.jpg'); ;
+    background-size: cover; 
+    background-position: center;
+    background-repeat: no-repeat; 
+    border: 5px solid #ccc; 
+    border-radius: 10px; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin: 20px 0; 
+  }
